@@ -6,12 +6,15 @@ using namespace std;
 
 int main()
 {
-	int repeats = 100,
+	int repeats = 0,	
 		headCount = 0,
 		tailCount = 0,
 		random = 0;
 
 	srand(time(NULL));
+
+	cout << "Type a number: "; 
+	cin >> repeats; 
 
 	for (int i = 0; i < repeats; i++)
 	{
